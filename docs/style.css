@@ -48,14 +48,13 @@ form{
     margin-left: 16.9rem;
 }
 
-#InputNombre{
+#InputNombre, #mail{
     width: 12rem;
 }
 
 #mail
 {
     margin-left: 8.7rem; 
-    width: 12rem;
 }
 
 form input, textarea{
