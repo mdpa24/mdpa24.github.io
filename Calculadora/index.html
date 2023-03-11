@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculadora</title>
+    <script src="./index.js" defer></script>
+    <style>
+        body section{
+            transition: box-shadow 0.3s ease;
+            font-family: sans-serif;
+            text-align: center;
+            background-color: aqua;
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 40px;
+            padding-top: 0.1rem;
+            padding-bottom: 0.1rem;
+            border-radius: 0.5rem;  
+            
+
+        }
+
+        section:hover{
+
+            box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+        }
+
+
+        input{
+
+            display: block;
+            margin: auto;
+            margin-bottom: 15px;
+           
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1>Calculadora</h1>
+    <form action="" method="dialog">
+       <input type="text" id="op1" placeholder="Operador 1">
+       <input type="text" id="operacion" placeholder="+,-,*,/">
+       <input type="text" id="op2" placeholder="Operador 2">
+
+       <input type="submit" value="Calcular" id="calcular">
+    </form>
+    <p id="resultado"></p>
+    </section>
+</body>
+</html>
