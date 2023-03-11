@@ -13,15 +13,13 @@ body{
     display: flex;
 }
 
-.imagenavatar{
+.imagenavatar, .contenedor2{
     margin-top: 3rem;
     margin-left: 3rem;
 }
 
-.texto{
-    padding-top: 2.5rem; 
-    margin-top: 3rem;
-    margin-left: 3rem;
+.contenedor2{
+    padding-top: 2.5rem;  
 }
 
 .contenedor2 img{
