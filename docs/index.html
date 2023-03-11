@@ -1,79 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-        <title>Portafolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="contenedor">
+    <div class="Contenedor">
 
-            <img class="imagenavatar" src="img/avatar.svg">
-
-            <div class="contenedor2">
-
-                <h1>Desarrollador Front End</h1>
-                <h2>Me gusta la programación y moverle a la computadora</h2>
-                <h4>Habilidades:</h4>
-                                
-                <img src="img/html.png" >
-                <img src="img/css.png">
-                <img id="jscimage" src="img/jsc.png">
-                <img id="gitimage" src="img/git.svg">
-
-            </div>
-
-            <form action="mailto:mdpa24@outlook.com" method="post" enctype="text/plain">
-
-                <h3>Contacto</h3>
-                <label for="nombre">Nombre</label>
-                <label id="LabelEmail" for="correo">Correo eléctronico</label>
-                <br>
-                <input id="InputNombre" type="text" id="nombre" name="nombre"/>
-                <input id="Mail" type="email" id="correo" name="correo"/>
-                <br><br>
-                <label for="mensaje">Mensaje</label>
-                <br>
-                <textarea rows="2" cols="71" id="mensaje" name="mensaje"></textarea>
-                <br><br>
-                <button type="submit">Entregar</button>
-                <br>
         
+        <div class="Caja1">
+            
+            <img class="imagenavatar" src="img/avatar.svg">
+        
+        </div>
+
+        
+        <div class="Caja2">
+        
+            <h1>Desarrollador Front End</h1>
+            <h2>Me gusta la programación y moverle a la computadora</h2>
+            <h4>Habilidades:</h4>
+            <img src="img/html.png" >
+            <img src="img/css.png">
+            <img id="jscimage" src="img/jsc.png">
+            <img id="gitimage" src="img/git.svg">
+                    
+        </div>
+
+        
+        <div class="Caja3">
+            
+            <form action="mailto:mdpa24@outlook.com" method="post" enctype="text/plain">
+        
+                <h3>Contacto</h3>
+                <div class="Nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre"/>
+                </div>
+                <div class="Email">
+                <label for="correo">Correo eléctronico</label>
+                <input type="email" id="correo" name="correo"/>
+                </div>
+                <label for="mensaje">Mensaje</label>
+                <textarea rows="2" cols="66" id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Entregar</button>
+                
             </form>
+
             
         </div>
+
+
+    </div>
+
+
+        <div class="Clearfix"></div>
+
         
-            <h2 id="Subtitulo">Proyectos</h2>
+        <h2 id="Subtitulo">Proyectos</h2>
 
-            <a href="Calculadora/index.html">
 
-            <article>
-                <h3>Calculadora</h3>
-                <p>Diseño de calculadora con HTML, CSS Y JS</p>
-                <img src="img/calculadora.png"/>
-                <p>Texto del artículo que hay acá y es texto de prueba. </p>
-            </article>
+        <a href="Calculadora/index.html">
 
-            </a>
+        <article>
+            <h3>Calculadora</h3>
+            <p>Diseño de calculadora con HTML, CSS Y JS</p>
+            <img src="img/calculadora.png"/>
+            <p>Texto del artículo que hay acá y es texto de prueba. </p>
+        </article>
+
+        </a>
+
             
-            <a href="Blog/docs/index.html">
-
+        <a href="Blog/docs/index.html">
+        
             <article>
                 <h3>Blog</h3>
                 <p>Diseño de blog con HTML, CSS</p>
                 <img src="img/blog.png"/>
                 <p>Texto del artículo que hay acá y es texto de prueba. </p>
             </article>
+    
+        </a>
 
-            </a>
             
-
-    </body>
+</body>
 
 </html>
