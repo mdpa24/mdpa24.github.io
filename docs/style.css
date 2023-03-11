@@ -57,7 +57,7 @@ form{
     margin-left: 8.7rem; 
 }
 
-form input, textarea{
+input, textarea{
     border-radius: 0.3rem;
     border-color: #000;
     border-width: 0.1rem;
