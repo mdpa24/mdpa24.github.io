@@ -10,29 +10,18 @@ body{
 
 }
 
-
-.Contenedor{
-
-    /* background-color: blue; */
-    
-}
-
-
 .Caja1, .Caja2, .Caja3{
 
     float: left;
-
+   
 }
 
 
 
 .Caja1{
-
     width: 254px;
     height: 282px;
-    margin-top: 3rem;
-    margin-left: 4.5rem;
-
+    margin: 48px 0px 0px 72px;
 }
 
 
@@ -40,31 +29,31 @@ body{
 
     width: 700px;
     height: 242px;
-    padding-left: 4rem; 
-    padding-top: 2.5rem;  
-    margin-top: 3rem;
+    margin-top: 48px;
+    padding: 40px 0px 0px 64px;
+    
 
 }
 
 
 .Caja2 img{
 
-    width: 3rem;  
+    width: 48px;  
 
 }
 
 
 #jscimage{
 
-    width: 2.45rem; 
-    margin-left: 0.35rem;
+    width: 39.2px; 
+    margin-left: 5.6px;
 
 }
 
 
 #gitimage{
 
-    margin-left: 0.75rem;
+    margin-left: 12px;
 
 }
 
@@ -72,7 +61,7 @@ body{
 
     width: 797px;
     height: 282px;
-    margin-top: 3rem;
+    margin-top: 48px;
 
  }
 
@@ -82,13 +71,9 @@ body{
     width: 503px;
     height: 210px; 
     border: 1px solid #000;
-    padding-left: 0.9rem;
-    padding-bottom: 0.9rem;
-    padding-right: 0.9rem;
-    margin-top: 1.6rem;
-    margin-left: 13rem;
-    padding-top: 14.4px;
-    border-radius: 1.5rem;   
+    border-radius: 24px;   
+    padding: 14.4px;
+    margin: 25.6px 0px 0px 208px;
 
 }
 
@@ -104,7 +89,7 @@ form h3{
 
 input{
 
-    width: 194.3px;
+    width: 195.5px;
     display: block;   
 
 }
@@ -113,8 +98,8 @@ input{
 input, textarea, button{
 
     background-color: #eff0f1;
-    border-radius: 0.3rem;
-    border-width: 0.1rem;    
+    border-radius: 4.8px;
+    border-width: 1.6px;    
 
 }
 
@@ -134,7 +119,7 @@ input, textarea, button{
 }
 
 textarea{
-
+    margin: 0px 30px 15px 0px;
     margin-right: 30px;
     margin-bottom: 15px;
 }
@@ -168,11 +153,11 @@ a{
 article{
 
     width: 400px;
-    margin: 70px 0 100px 4.5rem;  
+    margin: 70px 0 100px 72px;  
     transition: box-shadow 0.3s ease;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     float: left; 
-    padding: 0.25rem 0;
+    padding: 4px 0;
     background-color: #eff0f1;
 
 }
@@ -187,20 +172,20 @@ article h3{
 
 article h3, p{
 
-    margin: 1rem; 
+    margin: 16px; 
 }
 
 
 article img{
 
-    width: 25rem;
+    width: 400px;
 
 }
 
 
 article:hover{
 
-    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,3);
+    box-shadow: 0 1.6px 6.4px rgba(0,0,0,3);
 
 }
 
