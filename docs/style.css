@@ -50,73 +50,105 @@ body{
 }
 
 
-
 form{
-    margin-top: 65px;
-    width: max-content;
-    border: 1px solid #000;
-    border-radius: 24px;   
-    /* padding: 14.4px; */
-    /* margin: 25.6px 0px 0px 208px; */
-}
 
+
+        margin-top: 1.6rem;
+  
+    border: 1px solid #000;
+
+    /* margin-left: 13rem; */
+    padding: 14.4px;
+    border-radius: 24px;   
+
+    width: max-content;
+
+
+}
 
 
 form h3{
 
-    padding: 0px;
     margin: 0px;
     margin-bottom: 15px;
+
 }
-
-
-
-input{
-
-    width: 195.5px;
-    display: block;   
-} 
-
 
 
 input, textarea, button{
 
+    display: block;  
     background-color: #eff0f1;
     border-radius: 4.8px;
     border-width: 1.6px;    
+ 
+
 }
 
 
-/*
-input, label{
-    /* display: block; */
-    /* margin-bottom: 15px; */
-    /* float: left; */
-*/
 
 
 
 .Nombre{
 
     margin-right: 100px;
-} 
+    float: left;
+}
 
 
 
-textarea{
-    margin: 0px 30px 15px 0px;
-    margin-right: 30px;
-    margin-bottom: 15px;
-} 
 
 
 
-.Clearfix{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Clearfix{
 
     float: none;
     clear: both;
-}
+} */
 
+
+ 
 
 
 #Subtitulo{
@@ -156,7 +188,7 @@ article h3{
 
 
 
-article h3, p{
+article h3, article p{
 
     margin: 16px; 
 }
