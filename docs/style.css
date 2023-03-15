@@ -12,19 +12,20 @@ body{
 }
 
 
-.imagenavatar{
 
-    border: 1px solid black;
+.imagenavatar{  
+
+    float: left;
     margin: 48px 0px 0px 72px;
 }
 
 
 
 .CajaDescripcion{
-    
+    float: left;
     width: max-content;
-    border: 1px solid black;
-    margin-top: 48px;
+    margin-top: 88px;
+    margin-left: 54px;
 }
 
 
@@ -50,29 +51,26 @@ body{
 }
 
 
+
 form{
-
-
-        margin-top: 1.6rem;
-  
-    border: 1px solid #000;
-
-    /* margin-left: 13rem; */
+    
+    margin-top: 95px;            
+    border: 1px solid #000;            
     padding: 14.4px;
-    border-radius: 24px;   
-
+    border-radius: 24px;
     width: max-content;
-
-
+    float: left;
+    margin-left: 222px;
 }
+
 
 
 form h3{
 
     margin: 0px;
     margin-bottom: 15px;
-
 }
+
 
 
 input, textarea, button{
@@ -81,11 +79,7 @@ input, textarea, button{
     background-color: #eff0f1;
     border-radius: 4.8px;
     border-width: 1.6px;    
- 
-
 }
-
-
 
 
 
@@ -97,65 +91,19 @@ input, textarea, button{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .Clearfix{
+.Clearfix{
 
     float: none;
     clear: both;
-} */
+} 
 
 
  
-
 
 #Subtitulo{
     text-align: center;
     margin-top: 150px;
     font-size: 32px;
-
 }
 
 
