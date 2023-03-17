@@ -119,6 +119,7 @@ a{
 article{
 
     width: 400px;
+    height: 340px;
     margin: 70px 0 100px 72px;  
     transition: box-shadow 0.3s ease;
     border-radius: 8px;
