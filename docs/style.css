@@ -13,7 +13,7 @@ body{
 
 
 
-.imagenavatar{  
+#imagenavatar{  
 
     float: left;
     margin: 48px 0px 0px 72px;
@@ -85,7 +85,7 @@ input, textarea, button{
 
 .Nombre{
 
-    margin-right: 104.8px;
+    margin-right: 103.8px;
     float: left;
 }
 
